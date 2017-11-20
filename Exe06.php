@@ -27,7 +27,7 @@ if(isset($_GET["submit"])){
     <h1>Exercicio 5 - equipes com até 4 alunos</h1>
     <p>Aluno 1 - Aluno2</p>
     <hr>
-    <form name="fomr1" action="Exe06.php" method="get">
+    <form name="fomr1" action="Exe06.php" method="GET">
 
       <p>Quantidade de alunos na equipe </p>
       <input type="text" name="inicio" value="">
