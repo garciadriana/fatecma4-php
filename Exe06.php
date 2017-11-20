@@ -1,5 +1,34 @@
 <?php
-if(isset($_GET["submit"])){
+  $inicio = $_GET["inicio"];
+  $fim = $_GET["fim"];
+  $tipo = $_GET["tipo"];
+ ?>
+ <!DOCTYPE html>
+  <html>
+  <head>
+    <meta charset="utf-8">
+    <title>Exercício 06</title>
+	<style>
+		body{
+			background: #6A5ACD;
+			color: #B0C4DE;
+			font-family: Century Gothic;
+		}
+		h1{
+			font-weight: bold;
+		}
+		</style>
+  </head>
+  <body>
+  <center>
+  <?php if($tipo=="1"){?>
+	<h1>Exercício 06 - Números Pares</h1>
+  <?php }else{?>
+	<h1>Exercício 06 - Números Ímpares</h1>
+  <?php }?>
+	Utilizando Loop com for()
+		<hr>
+<?php
   $inicio = $_GET["inicio"];
   $fim = $_GET["fim"];
   $tipo = $_GET["tipo"];
@@ -16,27 +45,8 @@ if(isset($_GET["submit"])){
     }
   }
     echo "fim!";
-}else {?>
-  <!DOCTYPE html>
-  <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Exe05</title>
-  </head>
-  <body>
-    <h1>Exercicio 5 - equipes com até 4 alunos</h1>
-    <p>Aluno 1 - Aluno2</p>
-    <hr>
-    <form name="fomr1" action="Exe06.php" method="GET">
 
-      <p>Quantidade de alunos na equipe </p>
-      <input type="text" name="inicio" value="">
-      <input type="text" name="fim" value="">
-      <p>Nome do representante da equipe</p>
-      <input type="radio" name="tipo" value="1">
-      <input type="radio" name="tipo" value="2">
-      <input type="submit" name="submit" value="Enviar">
-    </form>
-  </body>
-  </html>
-<?php } ?>
+ ?>
+</center>
+</body>
+</html>
