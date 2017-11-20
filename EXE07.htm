@@ -2,21 +2,29 @@
   <html>
   <head>
     <meta charset="utf-8">
-    <title>Exe07</title>
+    <title>Exercício 07</title>
+	<style>
+	body{
+		background: #008000;
+		color: #9ACD32;
+		font-family: Century Gothic;
+		
+	}
+	</style>
   </head>
   <body>
-    <h1>Exercicio 5 - equipes com até 4 alunos</h1>
-    <p>Aluno 1 - Aluno2</p>
-    <hr>
+  <center>
     <form name="fomr3" action="Exe07.php" method="POST">
-
-      <p>Quantidade de alunos na equipe </p>
-      <input type="text" name="depositos" value="">
-      <input type="text" name="qtdDep" value="">
-      <p>Nome do representante da equipe</p>
-      <input type="text" name="anos" value="1">
-      <input type="text" name="taxa" value="2">
+    <h1>Valor futuro com depósitos regulares</h1>
+    <p>Adriana</p>
+    <hr>
+      Valor do depósito mensal: R$<input type="text" name="depositos" value="" size="10"><br>
+      Quantidade de depósitos por ano: <input type="text" name="qtdDep" value="" size="3"><br>
+	  Quantidade de anos: <input type="text" name="anos" value="" size="3"><br>
+      Quantidade de juros nominal ao ano: <input type="text" name="taxa" value="" size="3">%<br>
       <input type="submit" name="submit" value="Enviar">
+	  <input type="reset" name="limpar" value="Limpar">
     </form>
+	</center>
   </body>
   </html>
