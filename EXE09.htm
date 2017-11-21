@@ -1,0 +1,42 @@
+  <!DOCTYPE html>
+  <html>
+  <head>
+    <meta charset="utf-8">
+    <title>Exercício 09</title>
+	<style>
+	body{
+		background: #FF69B4;
+		color: #C71585;
+		font-family: Century Gothic;
+	}
+	</style>
+  </head>
+    <body>
+	<center>
+    <h1>Exercicio 09 - Compra de Livro</h1>
+    <p>Adriana e Igor</p>
+    <hr>
+    <form name="form4" action="Exe09.php" method="POST">
+	Escolha a forma de pagamento: <br>
+      <input type="radio" name="livro" value="10"> R$10,00 à vista
+      <br>
+      <input type="radio" name="livro" value="12"> R$12,00 em 2 vezes
+      <br>
+      <input type="radio" name="livro" value="15"> R$15,00 em 3 vezes
+      <br>
+	Digite quantas quantidades deste livro deseja comprar: 
+      <input type="text" name="quantidade" value="" size="3" maxlength=3>
+      <br>
+      <select name="cidade" value="">
+	Selecione a cidade para o cálculo do frete:
+        <option value="1">Santo André 1%</option>
+        <option value="2">São Bernardo 2%</option>
+        <option value="5">São Caetano 5%</option>
+        <option value="10">Outras 10%</option>
+      </select>
+      <input type="submit" name="submit" value="Enviar">
+	  <input type="reset" name="limpar" value="Limpar">
+    </form>
+	</center>
+  </body>
+  </html>
