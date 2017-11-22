@@ -12,7 +12,7 @@
 <?php
 //Definindo variáveis e valores
 $aluno1 = "Adriana";
-$aluno2 = "Mileny";
+$aluno2 = "Igor";
 $nomes = "$aluno1 e $aluno2";
 $sexo1 = "f";
 $sexo2 = "f";

@@ -30,7 +30,7 @@ if($modelo=="1"){
   <body>
   <center>
 	<h1>Exercício 08 - Modelos de Sequências Diferentes</h1>
-	<p>Adriana</p>
+	<p>Adriana e Igor</p>
 	<hr>
   <?php if($modelo=="1"){?>
 	Modelo 1 - Exibir a sequência de 1 até 100 com passo 2
