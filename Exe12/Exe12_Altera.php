@@ -33,7 +33,7 @@ if(isset($_POST["submit"])){
       Preço atual <?= $dados["preco"]?><br>
       Novo preço <input type="text" name="preco" value="" /><br>
       <input type="hidden" name="idCarro" value="<?= $dados["id"]?>" />
-      <input type="reset" name="naoAltera" value="Não Alterar">
+      <input type="reset" name="naoAltera" value="Não Alterar" onclick="window.open('Exe12.php','_self')">
       <input type="submit" name="submit" value="Alterar">
     </form>
   </center>

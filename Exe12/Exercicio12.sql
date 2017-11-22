@@ -42,7 +42,7 @@ CREATE TABLE `carro` (
 
 LOCK TABLES `carro` WRITE;
 /*!40000 ALTER TABLE `carro` DISABLE KEYS */;
-INSERT INTO `carro` VALUES (1,'XYZ-5544','preto','jose','carro','2010','20000','5'),(2,'ASD-3333','branco','maria','carro2','2014','20010','2'),(3,'XPT-1234','nana','Adriana garcia','nana','2017','1000000','4'),(4,'YKI-1235','nana','Adriana garcia','nana','2011','22222','5'),(5,'ABB-1236','nana','Adriana garcia','nana','2011','1000000','4');
+INSERT INTO `carro` VALUES (1,'XYZ-5544','preto','astra','chevrolet','2010','2.0000,00','5'),(2,'ASD-3333','branco','clio','renault','2014','2.001,00','2'),(3,'XPT-1234','prata','fit','honda','2017','10.000,00','4'),(4,'YKI-1235','vermelho','marea','fiat','2011','22.222,00','5'),(5,'ABB-1236','dourado','volvo','volvo','2011','100.000,00','4');
 /*!40000 ALTER TABLE `carro` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

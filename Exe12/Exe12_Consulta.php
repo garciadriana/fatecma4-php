@@ -28,7 +28,7 @@ if($_GET["q"]=="flex"){
 <body>
   <center>
     <h1>Exercício 12 - Consulta de Carros</h1>
-    <p>Adriana</p>
+    <p>Adriana e Igor</p>
     <hr>
     <table>
       <tr>
@@ -50,7 +50,23 @@ if($_GET["q"]=="flex"){
           <td><?= $dados["marca"]?></td>
           <td><?= $dados["ano"]?></td>
           <td><?= $dados["preco"]?></td>
-          <td><?= $dados["combustivel"]?></td>
+          <td>
+		  <?php if($dados["combustivel"]=="1"){?>
+		  Gasolina
+		  <?php } ?>
+		  <?php if($dados["combustivel"]=="2"){?>
+		  Alcóol
+		  <?php } ?>
+  		  <?php if($dados["combustivel"]=="3"){?>
+		  Diesel
+		  <?php } ?>
+		  <?php if($dados["combustivel"]=="4"){?>
+		  Gas
+		  <?php } ?>
+  		  <?php if($dados["combustivel"]=="5"){?>
+		  Flex
+		  <?php } ?>
+		  </td>
         </tr>
       <?php } ?>
     </table>
