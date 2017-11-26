@@ -18,7 +18,7 @@
   <center>
     <form name="form1" action="Exe12_Gravou.php" method="POST">
       <h1>Exercicio 12 - Gravar novo carro</h1>
-      <p>Adriana</p>
+      <p>Adriana e Igor</p>
       <hr>
       Placa: <input type="text" name="placa" value=""> Cor: <input type="text" name="cor" value=""><br>
       Nome: <input type="text" name="nome" value=""> Marca: <input type="text" name="marca" value=""><br>

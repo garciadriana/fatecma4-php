@@ -32,7 +32,7 @@
 <body>
   <center>
     <h1>Exercício 12 - Banco de Dados</h1>
-    <p>Adriana</p>
+    <p>Adriana e Igor</p>
     <hr>
     <a href="Exe12_Grava.php"> Gravar novo carro</a><br>
     <a href="Exe12_Consulta.php?q=flex"> Exibir carros com combustíveis FLEX</a><br>

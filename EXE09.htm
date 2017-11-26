@@ -6,7 +6,7 @@
 	<style>
 	body{
 		background: #FF69B4;
-		color: #C71585;
+		color: #FFFFFF;
 		font-family: Century Gothic;
 	}
 	</style>
